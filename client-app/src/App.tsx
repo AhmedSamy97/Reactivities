@@ -22,7 +22,7 @@ class App extends Component<any,any> {
       <div className="App">
       
        {/* {this.state.values.map((val:any) =><div key={val.id}>{val.id} - {val.name}</div>)} */}
-      
+      <Button>Click</Button>
       </div>
     );
   }

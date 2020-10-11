@@ -4,3 +4,6 @@ obj
 .Ds_Store
 appsettings.json
 *.db
+/node_modules
+/.pnp
+.pnp.js
