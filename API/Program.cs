@@ -27,6 +27,7 @@ namespace API
 
                     // Will create the database if it does not already exist
                     context.Database.Migrate();
+                    Seed.SeedData(context);
 
                 }
                 catch (Exception ex)
